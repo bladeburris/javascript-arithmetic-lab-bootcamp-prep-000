@@ -23,3 +23,9 @@ function dec(a) {
   a -= 1 
   return a
 }
+
+function makeInt(string, 10) {
+  if (parseInt(string, 10) === NaN) {
+    return ""
+  }
+}
